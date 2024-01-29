@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DPS's Map Shop</title>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+    
+
+    
+    <script>
+        $(document).ready(function(){
+            
+          $("#translate1").hide();
+          $("#ptran2").hide();
+           
+          $("#ptran1").click(function(){
+            $("#translate1").show();
+            $("#ptran2").show();
+            $("#translate2").hide();
+            $("#ptran1").hide();
+            
+          });
+          
+         
+          $("#ptran2").click(function(){
+            $("#translate1").hide();
+            $("#ptran2").hide();
+            $("#ptran1").show();
+            $("#translate2").show();
+          });
+          
+          });
+        
+    </script>
+    
+    <style>
+        @font-face {
+        	font-family:'Zawgyi-One';
+        	src: url('https://cdn.rawgit.com/LeonarAung/MyanmarFont/6cf1262f/zawgyi.ttf') format('woff'), url('https://cdn.rawgit.com/LeonarAung/MyanmarFont/6cf1262f/zawgyi.ttf') format('ttf');
+        	}
+        	
+	    @font-face {
+        	font-family:'Unicode';
+        	src: url('https://cdn.rawgit.com/LeonarAung/MyanmarFont/6cf1262f/mon3.woff') format('woff'), url('https://cdn.rawgit.com/LeonarAung/MyanmarFont/6cf1262f/mon3.ttf') format('ttf');
+        	}
+        	
+        p,span,.row{font-family:'Unicode';}
+        
+        #spanblue{color:blue;}
+        
+        #step{line-height:3vw;line-height: 200% !important;}
+        
+        .row{background-color: #ffffff;color:#000000;line-height: 200%;line-height: 200%;}
+        
+        .col{padding-top:2vw;}
+        
+        li{line-height:3vw;line-height: 200%;text-align: justify;}
+        
+        #dpsid{margin-bottom:2vw;color:tomato; line-height: 200%; text-align:      justify;}
+            
+    </style>
+    
+    
+    <div class="jumbotron text-center" style="margin-bottom:0px !important;padding-top:3vw !important;padding-bottom:3vw;">
+        <h1>Map Shopping</h1>
+        <p>Can Order Now!</p>
+    </div>
+    <div class="container-fluid">
+        
+    <div class="row">
+        
+        <div class="col-sm-3">
+            <img src="../images/mm_myanmarmap.jpg" class="img-fluid">
+        </div>
+        
+        <div class="col-sm-9">
+            
+            <div class="row">
+                <div class="col">
+                    <p style="float:right;color:#8B0000;">Translated To</p>    
+                </div>
+                
+                <div class="col">
+                    <img src="img/england.png" id="ptran1" class="img-fluid" style="width:5vw;">
+                    <img src="img/myanmar.png" id="ptran2" class="img-fluid" style="width:5vw;">
+                </div>
+            </div>
+            
+            
+            <div id="translate1">
+                
+            <ol>
+                <li id="step"><b>Step 1-</b> 
+                    Your Order ID is <span id="spanblue">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+                    You can pay via the below propered method.</li>
+                    
+                    <ul>
+                      <li>CB- <span id="spanblue">0010600500076977</span></li>
+                      <li>AYA- <span id="spanblue">0205201010021568</span></li>
+                      <li>KBZ- <span id="spanblue">04530104500274301</span></li>
+                      <li>KBZ(pay)- <span id="spanblue">09421098003</span></li>
+                      <li>Wave- <span id="spanblue">09421098003</span></li>
+                    </ul>
+                    
+                <li id="step" ><b>Step 2</b>- Please send the evidence like screnshot( receipt) including your <span id="spanblue">Order Id</span> to <span id="spanblue">dm@dpsmap.com</span> or send sms or call <span id="spanblue">09775204020</span></li>
+                <li id="step"><b>Step 3</b>- We will send <span id="spanblue">the map</span> via your email.</li>
+            </ol>
+            
+            </div>
+            <div id="translate2">
+            
+            <h3 id="dpsid">
+                Order ID <span id="spanblue"></span>
+                  ကို လက်ခံရရှိပါသည်။
+                  ငွေလွဲရာတွင် ဖော်ပြပါ Order ID ကိုအကြောင်းအရာ (reason) နေရာတွင်ထည့်သွင်ပေးပို့ပေးပါ။
+            </h3>
+            
+                
+            <ol>
+                <li id="step" style="font-family:'Unicode';">
+                    <b>အဆင့် ၁</b>
+                    သင့်ရဲ့ order  ID သည် 
+                    <span id="spanblue"></span>
+                    ဖြစ်သည်။
+                    ကျသင့်ငွေမှာ 
+                    <span id="spanblue"> </span>
+                    ဖြစ်သည်။
+                    <br>
+                    ကျသင့်ငွေကို အောက်ပါများမှ နှစ်သက်ရာ အဆင်ပြေသည့် နည်းလမ်းတခုခုနှင့်
+                    လွှဲပေးနိုင်ပါသည်။
+                </li>
+                
+                    <ul>
+                          <li>CB- <span id="spanblue">0010600500076977</span></li>
+                          <li>AYA- <span id="spanblue">0205201010021568</span></li>
+                          <li>KBZ- <span id="spanblue">04530104500274301</span></li>
+                          <li>KBZ(pay)- <span id="spanblue">09421098003</span></li>
+                          <li>Wave- <span id="spanblue">09421098003</span></li>
+                          <li>Phone Bill- <span id="spanblue">09775204020</span></li>
+                    </ul>
+                
+                <li id="step" >
+                    <b>အဆင့် ၂</b>-
+                       ငွေလွှဲပီးကြောင်းကို screenshot ကဲ့သို့ အထောက်အထားနှင့်တကွ 
+                    
+                    <span id="spanblue">dm@dpsmap.com </span> 
+                      သို့ mail ပို့၍ ၎င်း၊ 
+                    <br><span id="spanblue">09775204020</span>
+                     သို့ SMS(သို့မဟုတ်)ဖုန်းဆက်၍ ၎င်း ပို့ထားရပါမည်။
+                    <br>
+                     မှတ်ချက်။ ငွေလွှဲပီးကြောင်း အထောက်အထားပို့ရာတွင့် သင့်ရဲ့ Order Id ကိုပါ ထည့်သွင်းပေးပို့ပေးရန်တောင်းဆိုအပ်ပါသည်။
+    
+    
+                </li>
+                
+                <li id="step">
+                    <b>အဆင့် ၃</b>- 
+                 သင့်ထံသို့ 24 နာရီအတွင်း ဒေါင်းလုတ်ပြုလုပ်နိုင်သော Link ချပေးပါမည်။ကျေးဇူးပြု၍ မေးလ်ကို ပြန်ပြန်စစ်ပေးပါ။
+                    
+                </li>
+                
+            </ol>
+            </div>
+            
+            
+        </div>
+        
+    </div>
+    </div>
+    <div class="row" style="background-color: #30302f !important;padding-top:5vw;padding-bottom:5vw;padding-left:3vw;">
+        <p style="color: #ffffff ;margin-left:1vw;">Developed by Htet Aung Shane<br>
+        DPS Co.,Ltd</p>
+    </div>
+   
+
+  
+</body>
+</html>

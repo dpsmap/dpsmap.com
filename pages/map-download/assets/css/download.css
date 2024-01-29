@@ -1,0 +1,42 @@
+.download-container {
+  width: 60%;
+
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+
+  padding-bottom: 20px;
+  margin: 40px auto;
+}
+
+.download-container .heading {
+  width: 100%;
+  background: var(--main-accent-color);
+
+  padding: 10px 0px;
+  color: var(--font-color-primary);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.mail-body {
+  margin: 20px 20px;
+  padding: 20px;
+  line-height: 30px;
+}
+
+.mail-body .download {
+  border: none;
+  color: var(--font-color-primary);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100px;
+  height: 10px;
+  background: var(--main-accent-color);
+
+  padding: 20px;
+  margin-top: 20px;
+
+  cursor: pointer;
+}

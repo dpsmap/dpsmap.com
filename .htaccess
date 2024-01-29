@@ -1,0 +1,23 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+    RewriteRule ^aboutus/index.htm$ /pages/about-us/ [R=301,L]
+    RewriteRule ^gis2/$ /gis/ [R=301,L]
+    RewriteRule ^myanmar/aseanmap.html$ /aseanmap.html [R=301,L]
+    RewriteRule ^pyinmana.shtml$ /naypyitaw/ [R=301,L]
+    RewriteRule ^pyinmana/$ /naypyitaw/ [R=301,L]
+    RewriteRule ^mandalay/form.html$ /pages/map-download/ [R=301,L]
+    RewriteRule ^download_map/kachin.html$ /pages/map-download/ [R=301,L]
+    RewriteRule ^download_map/magway.html$ /pages/map-download/ [R=301,L]
+    RewriteRule ^download_map/shan.html$ /pages/map-download/ [R=301,L]
+    RewriteRule ^onlinemapshop/$ /pages/shop/ [R=301,L]
+    RewriteRule ^online_map_shop/$ /pages/shop/ [R=301,L]
+    RewriteRule ^mapdownload/$ /pages/map-download/ [R=301,L]
+    RewriteRule ^naypyitaw/form.html$ /pages/map-download/ [R=301,L]
+    RewriteRule ^yangon/form.html$ /pages/map-download/ [R=301,L]
+    RewriteRule ^map-download/$ /pages/map-download/ [R=301,L]
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ /pages/404/ [L]
+</IfModule>

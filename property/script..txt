@@ -1,0 +1,73 @@
+//script for index
+var x = document.getElementById("GPS_Location");
+
+function getLocation() { 
+  if (navigator.geolocation) { 
+    navigator.geolocation.getCurrentPosition(showPosition);;
+    
+  } else {
+    x.value = "Geolocation is not supported by this browser.";
+    // x.innerHTML 
+  }
+}
+
+function showPosition(position) {
+
+  y = position.coords.latitude;
+  x=  position.coords.longitude;
+  document.getElementById("Lon").value =x;
+  document.getElementById("Lat").value =y;
+
+}
+
+
+    $('.date').datepicker({
+       format: 'dd-mm-yyyy'
+     });
+
+$('.datepicker').datepicker({
+    format: 'dd/mm/yyyy'
+
+});
+
+function sub(){
+  var a=document.getElementById("a").value; 
+  var b=document.getElementById("b").value; 
+  var c=document.getElementById("c").value; 
+  var d=document.getElementById("d").value; 
+  var e=document.getElementById("e").value; 
+  var f=document.getElementById("f").value; 
+    if(a!='')    {        a=1;    }else {a=0;}
+    if(b!='')    {        b=1;    }else {b=0;}
+    if(c!='')    {        c=1;    }else {c=0;}
+    if(d!='')    {        d=1;    }else {d=0;}
+    if(e!='')    {        e=1;    }else {e=0;}
+    if(f!='')    {        f=1;    }else {f=0;}
+    var g=a+b+c+d+e+f;
+
+    if(g>0){
+        return;
+          }
+    else {
+        alert('Please type one of the price.');
+      }
+     return false;
+}
+
+function fun(dd){
+
+if(dd.length>='4'){
+$.ajax({
+  type: "POST",
+  url: "server.php",
+   data: {id : dd},
+  cache: false,
+  success: function(data){ 
+    document.getElementById("searchresultss").innerHTML = data;
+    //  $('#Address').editableSelect();
+    // $("#log").html(data);
+  }
+});
+}else{document.getElementById("searchresultss").innerHTML = '';}
+}
+

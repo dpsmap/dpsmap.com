@@ -1,0 +1,2 @@
+[15-Aug-2017 04:32:54 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dpsmap/public_html/online_map_shop/form/lightbox_form_myanmar_mm.php:9) in /home/dpsmap/public_html/online_map_shop/form/lightbox_form_myanmar_mm.php on line 59
+[17-Aug-2017 05:25:15 America/Chicago] PHP Parse error:  syntax error, unexpected 'color' (T_STRING) in /home/dpsmap/public_html/online_map_shop/form/lightbox_form_myanmar_mm.php on line 51

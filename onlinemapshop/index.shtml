@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head> 
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Design Printing Services, Online Map Shop</title>
+	<META NAME="keywords" content="myanmar, burma, myanmar map, burma map, the map of myanmar, pyinmana map, naypyidaw map, bagan map, mandalay map, inlay map, mrauk-u map, amarapura map, kyaikhtiyo map, sittwe map, pyinoolwin map, taunggyi map, myanmar photogallery, myanmar travel, myanmar news, beaches in myanmar, myanmar festival, thingyan festival, myanmar free magazines, online myanmar map shop, printing services, Design Printing Service, business card, PRINTING SERVICE, www.dpsmap.com, SERVICE, BUSINESS CARD, SERVICE, WWW.DPSMAP.COM, Service, Business">
+	<META NAME="description" content="Design Printing Services, Myanmar Map">
+	<meta name="google-site-verification" content="fLa8xgJoz3j8ameNlxUbDmu13GE2d0MSwVV3aD-rnwo" />
+	
+    <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+  ================================================== -->
+  	<link rel="stylesheet" href="../css/zerogrid.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/responsiveslides.css">
+	<link rel="stylesheet" href="../css/new_style.css">
+	<link rel="stylesheet" href="../css/menu.css">
+	<link rel="stylesheet" href="../css/lightbox.min.css">
+	<link rel="shortcut icon" type="image/x-icon"  href="../favicon.ico" />
+	<link href="../css/ninja-slider.css" rel="stylesheet" type="text/css" />
+	<link type="text/css" rel="stylesheet" href="../css/lightbox-form.css">
+	<link rel="stylesheet" href="form.css">
+	
+	<script>  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');  ga('create', 'UA-57336593-1', 'auto');  ga('send', 'pageview');</script>
+	<script src="../js/jquery-latest.min.js"></script>
+	<script src="../js/script.js"></script>
+    <script src="../js/jquery183.min.js"></script>
+	<script src="../js/ninja-slider.js" type="text/javascript"></script>
+    <script src="../js/responsiveslides.min.js"></script>
+	<script src="../js/lightbox-plus-jquery.min.js"></script>
+	<script src="../js/lightbox-form.js" type="text/javascript"></script>
+	<script src="form.js"></script>
+    <script>
+		// You can also use "$(window).load(function() {"
+		$(function () {
+		  // Slideshow 
+		  $("#slider").responsiveSlides({
+			auto: true,
+			pager: false,
+			nav: true,
+			speed: 500,
+			namespace: "callbacks",
+			before: function () {
+			  $('.events').append("<li>before event fired.</li>");
+			},
+			after: function () {
+			  $('.events').append("<li>after event fired.</li>");
+			}
+		  });
+		});
+	</script>
+	
+	
+	<!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="https://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="https://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+		<script src="js/css3-mediaqueries.js"></script>
+	<![endif]-->
+    
+</head>
+<body>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+<div class="a2a_kit a2a_kit_size_32 a2a_floating_style a2a_vertical_style" style="right:0px; top:350px;">
+     <a style="background-color:#333;border-color:#2e6da4;color:#fff;line-height:18px;" class="btn btn-primary" href="https://dpsmap.com/contact.html" role="button">Order Map !</a>
+</div>
+<div class="wrap-body">
+
+<!--////////////////////////////////////Header-->
+<header class="bg-theme">
+	<div class="wrap-header zerogrid">
+		<div class="row">
+			<a href='https://www.dpsmap.com' class="logo"><img class="img-responsive" src="../images/dpsmap_title.png" alt="Logo"></a>
+			<div class="header_contact">
+				<p class="translate_content">
+				    <!--a href="https://dpsmap.com/myanmar/index.shtml"><img src="../images/eng_flag.jpg" alt="English_Flag"></a-->
+				<a href="https://dpsmap.com/onlinemapshop/"><img src="../images/myn_flag.jpg" alt="Myanmar_Flag"></a></p>
+				<p class="head_contact"><img src="../images/ph_icon.png" alt="Phone_Icon">&nbsp;&nbsp;CALL: +95 9 774204020
+				<img src="../images/email_icon.png" alt="Email_Icon">&nbsp;&nbsp;dpsmap@gmail.com</p>
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="bg-theme">
+	<div class="filter zerogrid">
+		<div class="row">
+			<div class="col-full">
+				
+					<div id="cssmenu">
+						<ul>
+							<li class='active'><a href="https://dpsmap.com/">Home</a></li>
+							<li><a href="#">Our Service</a>
+									<ul>
+									<li><a href="https://dpsmap.com/mapplotting.shtml">Map Plotting</a></li>
+									<li><a href="../printing-services/">Printing Service</a></li>
+									<li><a href="../website-services/">Website Service</a></li>
+									</ul>
+							</li>
+							<li><a href="#">Products & Prices</a>
+								<ul>
+									<li><a href="https://dpsmap.com/gis/index.shtml">GIS Map</a></li>
+									<li><a href="https://dpsmap.com/gps/index.html">GPS</a></li>
+									<li><a href="https://dpsmap.com/tracking/">Tracking</a></li>
+								</ul>
+							</li>
+							<li><a href="https://dpsmap.com/map/index.shtml">Map</a>
+								<ul>
+									<li><a href="https://dpsmap.com/touristmap.shtml">Tourist Maps</a></li>
+									<li><a href="https://dpsmap.com/moy.html">The Map of Yangon</a></li>
+								</ul>
+							</li>
+							<li><a href="https://dpsmap.com/aboutus/">About Us</a></li>
+							<li><a href="https://dpsmap.com/news/">News</a></li>
+							<li><a href="https://dpsmap.com/contact/">Contact Us</a></li>
+						</ul>
+						<FORM method=GET action="https://www.google.com/search" id="search">
+
+							<input type=hidden name=sitesearch value="www.dpsmap.com" checked>
+
+							<input type=hidden name=domains value="dpsmap.com">
+
+							<input type=hidden name=oe value=UTF-8>									
+	
+							<input type="text" name="q" size="40" placeholder="Search..." >
+
+						</form>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	<!--////////////////////////////////////Container-->
+	<section id="container">
+		<div class="wrap-container clearfix">
+			<div id="main-content">
+				<div class="zerogrid">
+                    
+							<div class="wrap-col">
+								<div class="header">
+									<div class="row">
+										<div style="padding:0px 10px;" class="col-1-4">
+											<iframe src="https://player.vimeo.com/video/241282452" width="100%" height="200" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+										</div>
+										<div style="padding:20px 10px;margin:0px;" class="col-2-4">
+											<h3 style="margin:0px;">Installation Real Time GPS Tracker for Tractor</h3>
+											<p align="justify">It is going to be the season for harvesting crop and planting beans soon. So, if you will install GPS devices on your harvesters and lathe machines, you can calculate the total working acres within a day and they can see working from a farm to another as you are following with them. The only thing you need to do is relax and just watching from home</p>	
+										</div>
+										<div style="padding:0px 10px;text-align:center;" class="col-1-4">
+											<h3>Dps Valued Client</h3>
+										<a href="https://www.dpsmap.com/gis/index.shtml#client_link"><img src="../images/home/clients.jpg" alt="Clients"></a>
+										</div>
+									</div>
+								</div>
+                            </div>
+
+					<div class="row">
+						<div class="wrap-col">
+							<div class="header">
+								<div class="row">
+									<div class="col-4-5">
+										<h1 style="font-size:20px;line-height:20px;letter-spacing:0px;">Online Map Shop</h1>
+									</div>
+									<div class="col-1-5">
+										<a class="map_order_btn" href="https://dpsmap.com/#Direct" role="button">Free Map Order</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-full">
+							<div class="wrap-col">
+								<div id="myanmar_map_content">
+									<div class="row">
+								<!--
+										<div style="padding:20px 10px;" class="col-1-3">
+										<img src="images/eversioncover.jpg" width="90%" alt="Photo"></a>
+											<div class="header">
+											<h6 style="text-align:center;">State & Division Map Book (English Version) </h6>
+											<p style="text-align:center;">Size = A3</p>
+											<p style="text-align:center;">Price = 3000 ks</p>
+											<a id="contact9"><img src="images/buy_now.png" alt="Buy Now Button"></a>
+											</div>
+											<div id="contactForm9">
+												<h3>State & Division Map Book (English Version)</h3>
+												<p>Size = A3</p>
+												<p>Price = 3000 ks</p>
+												<form method="post" action="form/lightbox_form_state&division_eversion.php" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy'); return false; }">
+													<input name="name" placeholder="name" type="text" required />
+													<input name="email" placeholder="email" type="email" required />
+													<input name="phone" placeholder="phone" type="tel" required />
+													<p>( These Maps are only for personal use and we not allowed to use for distribuing, commercial use and printing ).</p>
+													<input class="term" type="checkbox" name="checkbox" value="check" id="agree" /> I have read and agree to the Terms and Conditions and Privacy Policy
+													<input value="Submit" name="Submit" class="formBtn" type="submit" />
+													<input value="Reset" class="formBtn" type="reset" />
+												</form>
+											</div>
+										</div><br>
+
+										<div class="col-1-3">
+											<img src="images/mversioncover.jpg" alt="Myanmar Map">
+											<div class="header">
+												<h6 style="text-align:center;">State & Division Map Book (Myanmar Version) </h6>
+												<p style="text-align:center;">Size = A3</p>												
+												<p style="text-align:center;">Price - 3000 kyats</p>
+												<a id="contact10"><img src="images/buy_now.png" alt="Buy Now Button"></a>
+											</div>
+											<div id="contactForm10">
+												<h3>Buy State & Division Map Book (Myanmarversion)</h3>
+												<p>Size = A3</p>
+												<p>Price - 3000 kyats</p>
+												<form method="post" action="form/lightbox_form_myanmar_eng.php">
+													<input name="name" placeholder="name" type="text" required />
+													<input name="email" placeholder="email" type="email" required />
+													<input name="phone" placeholder="phone" type="tel" required />
+													<p>( These Maps are only for personal use and we not allowed to use for distribuing, commercial use and printing ).</p>
+													<input class="term" type="checkbox" name="checkbox" value="check" id="agree" /> I have read and agree to the Terms and Conditions and Privacy Policy
+													<input value="Submit" class="formBtn" type="submit" />
+													<input value="Reset" class="formBtn" type="reset" />
+												</form>
+											</div>
+										</div>
+											-->
+										<div class="col-1-3">
+											<img src="images/gps.jpg" alt="Myanmar Map" width="62%">
+											<div class="header">
+												<h6 style="text-align:center;">Online GPS (DPS ရဲ႔ GPS)</h6><br>		
+												<p style="text-align:center;">Discount Price = 50000 ks (only 31 May 2018)</p><br>
+												<a id="contact11"><img src="images/buy_now.png" alt="Buy Now Button"></a>
+											</div>
+											<div id="contactForm11">
+												<h3>Buy Online GPS (DPS ရဲ႔ GPS)</h3>
+												<p>Discount Price = 50000 ks (only 31 May 2018)</p>
+												<form method="post" action="form/lightbox_form_myanmar_eng.php">
+													<input name="name" placeholder="name" type="text" required />
+													<input name="email" placeholder="email" type="email" required />
+													<input name="phone" placeholder="phone" type="tel" required />
+													<p>( These Maps are only for personal use and we not allowed to use for distribuing, commercial use and printing ).</p>
+													<input class="term" type="checkbox" name="checkbox" value="check" id="agree" /> I have read and agree to the Terms and Conditions and Privacy Policy
+													<input value="Submit" class="formBtn" type="submit" />
+													<input value="Reset" class="formBtn" type="reset" />
+												</form>
+											</div>
+										</div>
+										
+										
+										</div>
+									</div>	
+								</div>	
+							</div>		
+						
+
+						<div class="col-full">
+							<div class="wrap-col">
+								<div id="myanmar_map_content">
+									<div class="row">
+										<div class="col-1-3">
+											<img src="images/mm_myanmarmap.jpg" alt="Myanmar Map">
+											<div class="header">
+												<h6 style="text-align:center;">Myanmar Map (Myanmar Version)</h6>
+												<p style="text-align:center;">Size = A3</p>
+												<p style="text-align:center;">Format = JPG Format</p>
+												<p style="text-align:center;">Resolution = 300 dpi</p>
+												<p style="text-align:center;">Price = 10000 ks</p>
+												<a id="contact"><img src="images/buy_now.png" alt="Buy Now Button"></a>
+											</div>
+											<div id="contactForm">
+												<h3>Buy Myanmar Map (Myanmar Version)</h3>
+												<p>Size = A3</p>
+												<p>Resolution = 300 dpi</p>
+												<p>Price = 10000 ks</p>
+												<form method="post" action="form/lightbox_form_myanmar_mm.php" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy'); return false; }">
+													<input name="name" placeholder="name" type="text" required />
+													<input name="email" placeholder="email" type="email" required />
+													<input name="phone" placeholder="phone" type="tel" required />
+													<p>( These Maps are only for personal use and we not allowed to use for distribuing, commercial use and printing ).</p>
+													<input class="term" type="checkbox" name="checkbox" value="check" id="agree" /> I have read and agree to the Terms and Conditions and Privacy Policy
+													<input value="Submit" name="Submit" class="formBtn" type="submit" />
+													<input value="Reset" class="formBtn" type="reset" />
+												</form>
+											</div>
+										</div>
+										<div class="col-1-3">
+											<img src="images/eng_myanmarmap.jpg" alt="Myanmar Map">
+											<div class="header">
+												<h6 style="text-align:center;">Myanmar Map (English Version)</h6>
+												<p style="text-align:center;">Size = A3</p>
+												<p style="text-align:center;">Format = JPG Format</p>
+												<p style="text-align:center;">Resolution = 300 dpi</p>
+												<p style="text-align:center;">Price = 10000 ks</p>
+												<a id="contact1"><img src="images/buy_now.png" alt="Buy Now Button"></a>
+											</div>
+											<div id="contactForm1">
+												<h3>Buy Myanmar Map (English Version)</h3>
+												<p>Size = A3</p>
+												<p>Resolution = 300 dpi</p>
+												<p>Price = 10000 ks</p>
+												<form method="post" action="form/lightbox_form_myanmar_eng.php">
+													<input name="name" placeholder="name" type="text" required />
+													<input name="email" placeholder="email" type="email" required />
+													<input name="phone" placeholder="phone" type="tel" required />
+													<p>( These Maps are only for personal use and we not allowed to use for distribuing, commercial use and printing ).</p>
+													<input class="term" type="checkbox" name="checkbox" value="check" id="agree" /> I have read and agree to the Terms and Conditions and Privacy Policy
+													<input value="Submit" class="formBtn" type="submit" />
+													<input value="Reset" class="formBtn" type="reset" />
+												</form>
+											</div>
+										</div>
+										<div class="col-1-3">
+											<img src="images/yangon_map.jpg" alt="Yangon Map">
+											<div class="header">
+												<h6 style="text-align:center;">Yangon Map</h6>
+												<p style="text-align:center;">Size = A3</p>
+												<p style="text-align:center;">Format = JPG Format</p>
+												<p style="text-align:center;">Resolution = 300 dpi</p>
+												<p style="text-align:center;">Price = 10000 ks</p>
+												<a id="contact2"><img src="images/buy_now.png" alt="Buy Now Button"></a>
+											</div>
+											<div id="contactForm2">
+												<h3>Buy Yangon Map</h3>
+												<p>Size = A3</p>
+												<p>Resolution = 300 dpi</p>
+												<p>Price = 10000 ks</p>
+												<form method="post" action="form/lightbox_form_yangon.php">
+													<input name="name" placeholder="name" type="text" required />
+													<input name="email" placeholder="email" type="email" required />
+													<input name="phone" placeholder="phone" type="tel" required />
+													<p>( These Maps are only for personal use and we not allowed to use for distribuing, commercial use and printing ).</p>
+													<input class="term" type="checkbox" name="checkbox" value="check" id="agree" /> I have read and agree to the Terms and Conditions and Privacy Policy
+													<input value="Submit" class="formBtn" type="submit" />
+													<input value="Reset" class="formBtn" type="reset" />
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-full">
+							<div class="wrap-col">
+								<div id="myanmar_map_content">
+									<div class="row">
+										<div class="col-1-3">
+											<img src="images/bagan_map.jpg" alt="Bagan Map">
+											<div class="header">
+												<h6 style="text-align:center;">Bagan Map</h6>
+												<p style="text-align:center;">Size = A3</p>
+												<p style="text-align:center;">Format = JPG Format</p>
+												<p style="text-align:center;">Resolution = 300 dpi</p>
+												<p style="text-align:center;">Price = 10000 ks</p>
+												<a id="contact3"><img src="images/buy_now.png" alt="Buy Now Button"></a>
+											</div>
+											<div id="contactForm3">
+												<h3>Buy Bagan Map</h3>
+												<p>Size = A3</p>
+												<p>Resolution = 300 dpi</p>
+												<p>Price = 10000 ks</p>
+												<form method="post" action="form/lightbox_form_bagan.php" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy'); return false; }">
+													<input name="name" placeholder="name" type="text" required />
+													<input name="email" placeholder="email" type="email" required />
+													<input name="phone" placeholder="phone" type="tel" required />
+													<p>( These Maps are only for personal use and we not allowed to use for distribuing, commercial use and printing ).</p>
+													<input class="term" type="checkbox" name="checkbox" value="check" id="agree" /> I have read and agree to the Terms and Conditions and Privacy Policy
+													<input value="Submit" name="Submit" class="formBtn" type="submit" />
+													<input value="Reset" class="formBtn" type="reset" />
+												</form>
+											</div>
+										</div>
+										<div class="col-1-3">
+											<img src="images/mandalay_map.jpg" alt="Mandalay Map">
+											<div class="header">
+												<h6 style="text-align:center;">Mandalay Map</h6>
+												<p style="text-align:center;">Size = A3</p>
+												<p style="text-align:center;">Format = JPG Format</p>
+												<p style="text-align:center;">Resolution = 300 dpi</p>
+												<p style="text-align:center;">Price = 10000 ks</p>
+												<a id="contact4"><img src="images/buy_now.png" alt="Buy Now Button"></a>
+											</div>
+											<div id="contactForm4">
+												<h3>Buy Mandalay Map</h3>
+												<p>Size = A3</p>
+												<p>Resolution = 300 dpi</p>
+												<p>Price = 10000 ks</p>
+												<form method="post" action="form/lightbox_form_mandalay.php">
+													<input name="name" placeholder="name" type="text" required />
+													<input name="email" placeholder="email" type="email" required />
+													<input name="phone" placeholder="phone" type="tel" required />
+													<p>( These Maps are only for personal use and we not allowed to use for distribuing, commercial use and printing ).</p>
+													<input class="term" type="checkbox" name="checkbox" value="check" id="agree" /> I have read and agree to the Terms and Conditions and Privacy Policy
+													<input value="Submit" class="formBtn" type="submit" />
+													<input value="Reset" class="formBtn" type="reset" />
+												</form>
+											</div>
+										</div>
+										<div class="col-1-3">
+											<img src="images/naypyitaw_map.jpg" alt="Naypyitaw Map">
+											<div class="header">
+												<h6 style="text-align:center;">Naypyitaw Map</h6>
+												<p style="text-align:center;">Size = A3</p>
+												<p style="text-align:center;">Format = JPG Format</p>
+												<p style="text-align:center;">Resolution = 300 dpi</p>
+												<p style="text-align:center;">Price = 10000 ks</p>
+												<a id="contact5"><img src="images/buy_now.png" alt="Buy Now Button"></a>
+											</div>
+											<div id="contactForm5">
+												<h3>Buy Naypyitaw Map</h3>
+												<p>Size = A3</p>
+												<p>Resolution = 300 dpi</p>
+												<p>Price = 10000 ks</p>
+												<form method="post" action="form/lightbox_form_naypyitaw.php">
+													<input name="name" placeholder="name" type="text" required />
+													<input name="email" placeholder="email" type="email" required />
+													<input name="phone" placeholder="phone" type="tel" required />
+													<p>( These Maps are only for personal use and we not allowed to use for distribuing, commercial use and printing ).</p>
+													<input class="term" type="checkbox" name="checkbox" value="check" id="agree" /> I have read and agree to the Terms and Conditions and Privacy Policy
+													<input value="Submit" class="formBtn" type="submit" />
+													<input value="Reset" class="formBtn" type="reset" />
+												</form>
+											</div>
+										</div>
+									</div>									
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-full">
+							<div class="wrap-col">
+								<div id="myanmar_map_content">
+									<div class="row">
+										<div class="col-1-3">
+											<img src="images/inlay_map.jpg" alt="Inlay Map">
+											<div class="header">
+												<h6 style="text-align:center;">Inlay Map</h6>
+												<p style="text-align:center;">Size = A3</p>
+												<p style="text-align:center;">Format = JPG Format</p>
+												<p style="text-align:center;">Resolution = 300 dpi</p>
+												<p style="text-align:center;">Price = 10000 ks</p>
+												<a id="contact6"><img src="images/buy_now.png" alt="Buy Now Button"></a>
+											</div>
+											<div id="contactForm6">
+												<h3>Buy Inlay Map</h3>
+												<p>Size = A3</p>
+												<p>Resolution = 300 dpi</p>
+												<p>Price = 10000 ks</p>
+												<form method="post" action="form/lightbox_form_inlay.php" onsubmit="if(document.getElementById('agree').checked) { return true; } else { alert('Please indicate that you have read and agree to the Terms and Conditions and Privacy Policy'); return false; }">
+													<input name="name" placeholder="name" type="text" required />
+													<input name="email" placeholder="email" type="email" required />
+													<input name="phone" placeholder="phone" type="tel" required />
+													<p>( These Maps are only for personal use and we not allowed to use for distribuing, commercial use and printing ).</p>
+													<input class="term" type="checkbox" name="checkbox" value="check" id="agree" /> I have read and agree to the Terms and Conditions and Privacy Policy
+													<input value="Submit" name="Submit" class="formBtn" type="submit" />
+													<input value="Reset" class="formBtn" type="reset" />
+												</form>
+											</div>
+										</div>
+										<div class="col-1-3">
+											<img src="images/pyinoolwin_map.jpg" alt="Pyin Oo Lwin Map">
+											<div class="header">
+												<h6 style="text-align:center;">Pyin Oo Lwin Map</h6>
+												<p style="text-align:center;">Size = A3</p>
+												<p style="text-align:center;">Format = JPG Format</p>
+												<p style="text-align:center;">Resolution = 300 dpi</p>
+												<p style="text-align:center;">Price = 10000 ks</p>
+												<a id="contact7"><img src="images/buy_now.png" alt="Buy Now Button"></a>
+											</div>
+											<div id="contactForm7">
+												<h3>Buy Pyin Oo Lwin Map</h3>
+												<p>Size = A3</p>
+												<p>Resolution = 300 dpi</p>
+												<p>Price = 10000 ks</p>
+												<form method="post" action="form/lightbox_form_pyinoolwin.php">
+													<input name="name" placeholder="name" type="text" required />
+													<input name="email" placeholder="email" type="email" required />
+													<input name="phone" placeholder="phone" type="tel" required />
+													<p>( These Maps are only for personal use and we not allowed to use for distribuing, commercial use and printing ).</p>
+													<input class="term" type="checkbox" name="checkbox" value="check" id="agree" /> I have read and agree to the Terms and Conditions and Privacy Policy
+													<input value="Submit" class="formBtn" type="submit" />
+													<input value="Reset" class="formBtn" type="reset" />
+												</form>
+											</div>
+										</div>
+										<div class="col-1-3">
+											<img src="images/taunggyi_map.jpg" alt="Taunggyi Map">
+											<div class="header">
+												<h6 style="text-align:center;">Taunggyi Map</h6>
+												<p style="text-align:center;">Size = A3</p>
+												<p style="text-align:center;">Format = JPG Format</p>
+												<p style="text-align:center;">Resolution = 300 dpi</p>
+												<p style="text-align:center;">Price = 10000 ks</p>
+												<a id="contact8"><img src="images/buy_now.png" alt="Buy Now Button"></a>
+											</div>
+											<div id="contactForm8">
+												<h3>Buy Taunggyi Map</h3>
+												<p>Size = A3</p>
+												<p>Resolution = 300 dpi</p>
+												<p>Price = 10000 ks</p>
+												<form method="post" action="form/lightbox_form_taunggyi.php">
+													<input name="name" placeholder="name" type="text" required />
+													<input name="email" placeholder="email" type="email" required />
+													<input name="phone" placeholder="phone" type="tel" required />
+													<p>( These Maps are only for personal use and we not allowed to use for distribuing, commercial use and printing ).</p>
+													<input class="term" type="checkbox" name="checkbox" value="check" id="agree" /> I have read and agree to the Terms and Conditions and Privacy Policy
+													<input value="Submit" class="formBtn" type="submit" />
+													<input value="Reset" class="formBtn" type="reset" />
+												</form>
+											</div>
+										</div>
+									</div>									
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+	</section>
+<br>
+<div class= "wrap-col">
+		 <div class= "header">
+				 <div class="col-4-4">
+				     <div class="row">
+					     <br><h3>Promotion လူကြီးမင်း၏ ရုံးခန်း၊ ဧည့်ခန်းများတွင် မြေပုံများကို တပ်ဆင်အသုံးပြုနိုင်ပြီ</h3>
+
+                                      <p align= "justify">လူကြီးမင်း ရုံးခန်းနှင့် အစည်းအဝေးခန်းမများတွင် မြေပုံများ တပ်ဆင်နိုင်ရန် Frame များနှင့် အောက်ပါပုံများအတိုင်း အသင့်စီစဉ်ပြီး လှပသေသပ်စွာ ဆောင်ရွက်ပေးနိုင်ပါသည်။ အဆိုပါမြေပုံများကို  လူကြီးမင်းတို့  နှစ်သက်သောမြေပုံ၊ လိုအပ်သော အရွယ်အစား၊ ကြိုက်နှစ်သက်ရာ Paper အမျိုးမျိုးနှင့် (ဥပမာ - Photo Paper, Vinyl, Inkjet Paper) ဖြင့် ပုံကြီးများချဲ့၍ ကြည်လင်ပြတ်သားစွာဖြင့် Plotting ထုတ်ပေးနိုင်ပါသည်။ မြေပုံပေါ်တွင်လည်း လူကြီးမင်း၏ ရုံးခန်း၊ စက်ရုံ တည်နေရာများကိုလည်း မြေပုံပေါ်တွင် ထည့်သွင်းဆာင်ရွက် ပေးနိုင်ပါသည်။</p>
+                                    
+                                             <center><img src ="images/Map Plotting Photo1.jpg"></center>
+                                    
+                                                  <!--p>မြေပုံအရွယ်အစားအလိုက် ဈေးနှုန်းများကို အောက်ပါဇယားတွင် ကြည့်ရှုနိုင်ပါသည်။( ယခုဈေးနှုန်းများသည် 31 October 2018 အထိသာ)</p>
+                                    
+                                                      <center><img src ="images/Map Plotting Price Line Graph.jpg"></center><br-->
+                                                         </div>
+							                        </div>
+						                     	</div>
+						                   </div><br>	
+
+<div class="wrap-box" id="first_footer"><!--Start Box-->
+	<div class="zerogrid">
+		<div class="row">
+				<div class="col-1-4">
+					<div class="wrap-col">
+						<li><a href="https://dpsmap.com/myanmar/index.shtml">Myanmar Map (Burma Map)</a></li>
+						<li><a href="https://dpsmap.com/myanmar/aseanmap.html">Asean Highway Map</a></li>
+						<li><a href="https://dpsmap.com/yangon/index.shtml">Yangon Map</a></li>
+						<li><a href="https://dpsmap.com/mandalay/index.shtml">Mandalay Map</a></li>
+						<li><a href="https://dpsmap.com/bagan/index.shtml">Bagan Map</a></li>
+						<li><a href="https://dpsmap.com/mrauku/index.shtml">Mrauk-U Map</a></li>
+						<li><a href="https://dpsmap.com/mawlamying/index.shtml">Mawlamying Map</a></li>
+						<li><a href="https://dpsmap.com/amarapura/index.shtml">Amarapura Map</a></li>
+						<li><a href="https://dpsmap.com/taunggyi/index.htm">Taunggyi Map</a></li>
+						<li><a href="https://dpsmap.com/pyinoolwin/index.shtml">Pyin Oo Lwin Map (May Myo)</a></li>
+						<li><a href="https://dpsmap.com/inlay/index.shtml">Inlay Map</a></li>
+						<li><a href="https://dpsmap.com/sittwe/index.shtml">Sittwe Map</a></li>
+						<li><a href="https://dpsmap.com/pyinmana.shtml">Naypyitaw Map</a></li>
+						<li><a href="https://dpsmap.com/kyaiktiyo/index.shtml">Kyaikhtiyo - Golden Rock map</a></li>
+					</div>
+				</div>
+				
+				<div class="col-1-4">
+					<div class="wrap-col" id="popular_link">
+						<li><a href="https://dpsmap.com/downloadmap/magway.html">Magway Map</a></li>
+						<li><a href="https://dpsmap.com/downloadmap/sagaing.html">Sagaing Map</a></li>
+						<li><a href="https://dpsmap.com/downloadmap/kachin.html">Kachin Map</a></li>
+						<li><a href="https://dpsmap.com/downloadmap/chin.html">Chin Map</a></li>
+						<li><a href="https://dpsmap.com/downloadmap/rakhine.html">Rakhine Map</a></li>
+						<li><a href="https://dpsmap.com/downloadmap/shan.html">Shan Map</a></li>
+						<li><a href="https://dpsmap.com/gis/index.shtml">GIS Map</a></li>
+						<li><a href="https://dpsmap.com/map/index.shtml">Map</a></li>
+						<li><a href="https://dpsmap.com/onlinemapshop/">Online Map Shop</a></li>
+						<li><a href="https://dpsmap.com/mapplotting.shtml">Map Plotting</a></li>
+						<li><a href="https://dpsmap.com/gps/index.html">GPS</a></li>
+						<li><a href="https://dpsmap.com/aboutus/">About Us</a></li>
+						<li><a href="https://dpsmap.com/ybs.html">YBS</a></li>
+						<li><a href="https://dpsmap.com/contact/">Contact Us</a></li>
+						<li><a href="https://dpsmap.com/mapbox-busstop/">Map Box - Bus Stop</a></li>
+						<li><a href="https://dpsmap.com/carto/">Carto</a></li>
+					</div>
+				</div>
+				
+				
+			<div class="col-2-4">
+				<div class="wrap-col" style="padding:0px 10px;">
+					<h5>Design Printing Services Co., Ltd. (D.P.S)</h5> 
+					<p>Rm:307, Yae Kyaw Complex, Yae Kyaw Road, Pazundaung Township, Yangon, Myanmar (Burma)</p>
+					<p>165/167, Rm.4, 1st Flr., 35th Street, Kyauktada Township, <br>Yangon, Myanmar (Burma).</p>
+					 <p><img src="images/ph_icon.png" alt="Phone_Icon">&nbsp;(+95-9) 774 204020, 775 204020, 455 204020<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(+95-1) 20 40 20, 245 230 </p>
+					 <p><img src="images/email_icon.png" alt="Email_Icon">&nbsp;<a href="mailto:www.dpsmap@gmail.com">dpsmap@gmail.com</a></p>
+					 <p>&nbsp;</p>
+				</div>
+            </div>
+		</div>
+<br>
+ 
+
+
+<!--////////////////////////////////////Footer-->
+<footer>
+	<div class="zerogrid">
+		<div class="wrap-footer">
+			<div class="row">
+				<div class="col-full">
+					<div class="wrap-col">
+						<p>Copyright © 2018 by D.P.S</p>
+						<a target="_blank" href="https://www.facebook.com/DPSMyanmar"><img src="../images/facebook.png" alt="Facebook Photo"></a>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<center>
+<!-- Start of StatCounter Code for Dreamweaver -->
+<script type="text/javascript">
+var sc_project=310175;
+var sc_invisible=0;
+var sc_security="df515d3d";
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "https://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="web counter"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="//c.statcounter.com/310175/0/df515d3d/0/" alt="web
+counter"></a></div></noscript>
+<!-- End of StatCounter Code for Dreamweaver -->
+</center>
+
+</div>
+</body></html>

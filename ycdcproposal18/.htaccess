@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "ycdcproposal18"
+AuthUserFile "/home/dpsmap/.htpasswds/public_html/ycdcproposal18/passwd"
+require valid-user

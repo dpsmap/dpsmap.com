@@ -1,0 +1,8 @@
+User-agent: Googlebot
+
+Disallow: /cgi-bin/
+Disallow: /touristmap.php
+Disallow: /pages/map-download/dps-admin/
+Disallow: /private/
+Allow: /public/
+Sitemap: http://dpsmap.com/sitemap.xml
