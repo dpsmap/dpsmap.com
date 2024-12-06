@@ -8,10 +8,14 @@ require_once('config/urlConfig.php') ?>
 
 <head>
   <meta charset="UTF-8" />
-  
+
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <META NAME="keywords" content="dpsmap,DPS Map, Map Download, Free Map Download">
-  <META NAME="description" content="DPS Map, Free Map Download">
+  <!-- <META NAME="keywords" content="dpsmap,DPS Map, Map Download, Free Map Download,မြန်မာနိုင်ငံမြေပုံ,မြန်မာ ခရီးသွားလမ်းညွှန်,မြန်မာ တောရွာကျေးရွာများ,map book,myanmar map book">
+  <META NAME=" description" content="DPS Map, Free Map Download,မြန်မာမြေပုံများ,မြန်မာနိုင်ငံ၏ မြေပုံများ,လမ်းညွှန်များ,မြန်မာနိုင်ငံ၏ မြေပုံများ၊ လမ်းညွှန်များ၊ နှင့် ခရီးသွားအထောက်အကူများအားလုံးကို DPSmap.com မှာ ရယူပါ။"> -->
+
+  <META NAME="keywords" content="dpsmap, Myanmar map, Free map download, Google map, မြန်မာမြေပုံ">
+  <META NAME="description" content="DPS Map, မြန်မာနိုင်ငံ၏ မြေပုံများ၊ လမ်းညွှန်များ၊ နှင့် ခရီးသွားထောက်ပံ့မှုများ,free download myanmar map ">
+  <!--  -->
   <meta name="google-site-verification" content="fLa8xgJoz3j8ameNlxUbDmu13GE2d0MSwVV3aD-rnwo" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#222">
@@ -28,26 +32,39 @@ require_once('config/urlConfig.php') ?>
   <link rel="stylesheet" href="assets/libs/fontawesome/css/all.min.css" />
   -->
   <link rel="canonical" href="https://www.dpsmap.com/">
-  
-  <title>HOME - DPS Map</title>
-  
-  <style>
-  .banner {
-    background-color: black;
-  }
-  .responsive {
-          width: 100%;
-          max-width: 960px;
-          height: auto;
-          filter: drop-shadow(10px 10px 7px #13566f);
-          border-radius: 8px;
-           max-width: 100%;
-         max-height: 100%;
-}
 
+  <title>HOME - DPS Map</title>
+
+  <style>
+    .banner {
+      background-color: black;
+    }
+
+    .responsive {
+      width: 100%;
+      max-width: 960px;
+      height: auto;
+      filter: drop-shadow(10px 10px 7px #13566f);
+      border-radius: 8px;
+      max-width: 100%;
+      max-height: 100%;
+    }
   </style>
-  
-  <script>  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');  ga('create', 'UA-57336593-1', 'auto');  ga('send', 'pageview');</script>
+
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-57336593-1', 'auto');
+    ga('send', 'pageview');
+  </script>
 
 </head>
 
@@ -73,24 +90,24 @@ require_once('config/urlConfig.php') ?>
                 <a href="https://address.dpsmap.com" class="one-square-feet">ADDRESS</a>
                 <a href="districts/" class="one-square-feet">ခရိုင်၂၀၂၂</a>
               </div>
-              
+
             </div>
           </div>
         </div>
       </div>
     </div>
     <div class="banner">
-        <a href="https://m.facebook.com/story.php?story_fbid=pfbid02uQ6w8ozS3dBGVoGJ8LrNpKn2kcTuaz7PvE92oAD3SnhZCTgBqtWnviVPVUx8WJF1l&id=100064820825786&mibextid=Nif5oz" style="color:white;" target="_blank" >
-            <marquee style="margin-top: 0px;line-height:20px;font-size: 15px !important;margin-bottom: 0px;color:white;text-align:center;">
-                လယ်ယာမြေဝယ်ယူပြီးတော့ ပုံစံ ၁၀၅ ပါမြေပုံလက်ခံကို မြေပြင်အနေအထား Google Earth ပေါ်မှာထပ်ကြည့်ဖို့ လိုအပ်လာပြီဆိုရင် DPS ကိုသာသတိရလိုက်ပါ!
-            &nbsp;&nbsp;
-           Read More >>>
-            </marquee>
-        </a>
+      <a href="https://m.facebook.com/story.php?story_fbid=pfbid02uQ6w8ozS3dBGVoGJ8LrNpKn2kcTuaz7PvE92oAD3SnhZCTgBqtWnviVPVUx8WJF1l&id=100064820825786&mibextid=Nif5oz" style="color:white;" target="_blank">
+        <marquee style="margin-top: 0px;line-height:20px;font-size: 15px !important;margin-bottom: 0px;color:white;text-align:center;">
+          လယ်ယာမြေဝယ်ယူပြီးတော့ ပုံစံ ၁၀၅ ပါမြေပုံလက်ခံကို မြေပြင်အနေအထား Google Earth ပေါ်မှာထပ်ကြည့်ဖို့ လိုအပ်လာပြီဆိုရင် DPS ကိုသာသတိရလိုက်ပါ!
+          &nbsp;&nbsp;
+          Read More >>>
+        </marquee>
+      </a>
     </div>
-      
+
     <div class="main-content">
-        <!--
+      <!--
         <div class="before-footer" style="padding-top: 30px;">
             <div class="img-container">
                 <a href="https://shop.dpsmap.com/index.php/product/yangon-map-hard-copy/">
@@ -99,7 +116,7 @@ require_once('config/urlConfig.php') ?>
             </div>
        </div>
         -->
-       <div class="mission" style="padding-top: 30px;">
+      <div class="mission" style="padding-top: 30px;">
         <div class="heading">
           <span class="main-heading">DPS MAP</span>
         </div>
@@ -119,39 +136,39 @@ require_once('config/urlConfig.php') ?>
           </p>
         </div>
       </div>
-        
-    <div class="about-us-container">
+
+      <div class="about-us-container">
         <div class="about-us">
           <div class="heading">
             <a href="https://dpsmap.com/districts/images/The_District_Map_of_Myanmar_Update_2022_A0_Size.pdf" target="_blank">
-            <span class="sub-heading">ခရိုင်၂၀၂၂The District Map of Myanmar</span>
+              <span class="sub-heading">ခရိုင်၂၀၂၂The District Map of Myanmar</span>
             </a>
           </div>
-           
-              <div class="about-us-row">
-                   <a href="https://dpsmap.com/districts/images/The_District_Map_of_Myanmar_Update_2022_A0_Size.pdf" target="_blank">
-                    <img src="districts/images/The_District_Map_of_Myanmar.jpg" alt="The District Map of Myanmar" class="responsive"/>
-                    </a>
-              </div>
-        
+
+          <div class="about-us-row">
+            <a href="https://dpsmap.com/districts/images/The_District_Map_of_Myanmar_Update_2022_A0_Size.pdf" target="_blank">
+              <img src="districts/images/The_District_Map_of_Myanmar.jpg" alt="The District Map of Myanmar" class="responsive" />
+            </a>
+          </div>
+
         </div>
-     </div>    
-    
-     <div class="about-us-container">
+      </div>
+
+      <div class="about-us-container">
         <div class="about-us">
           <div class="heading">
             <a href="https://dpsmap.com/form105/">
-            <span class="sub-heading">ပုံစံ(၁၀၅)၊ပုံစံ(၇) လယ်ယာမြေလုပ်ကိုင်ခွင့်မြေပုံအကြောင်း</span>
+              <span class="sub-heading">ပုံစံ(၁၀၅)၊ပုံစံ(၇) လယ်ယာမြေလုပ်ကိုင်ခွင့်မြေပုံအကြောင်း</span>
             </a>
           </div>
-              <div class="about-us-row">
-                   <a href="https://dpsmap.com/form105/">
-                    <img src="assets/images/bg-arts/about_map_update.jpg" alt="form105 photo" class="responsive"/>
-                    </a>
-              </div>
+          <div class="about-us-row">
+            <a href="https://dpsmap.com/form105/">
+              <img src="assets/images/bg-arts/about_map_update.jpg" alt="form105 photo" class="responsive" />
+            </a>
+          </div>
         </div>
       </div>
-    
+
       <div class="about-us-container">
         <div class="about-us">
           <div class="heading">
@@ -181,7 +198,7 @@ require_once('config/urlConfig.php') ?>
           </div>
         </div>
       </div>
- 
+
       <div class="our-services-container">
         <div class="our-services">
           <div class="heading">
@@ -267,7 +284,7 @@ require_once('config/urlConfig.php') ?>
         </div>
 
       </div>
-  
+
       <div class="fast-facts-container">
         <div class="fast-facts">
           <span class="main-heading">Fast Facts DPS</span>
@@ -287,9 +304,9 @@ require_once('config/urlConfig.php') ?>
           </div>
         </div>
       </div>
-   
+
       <!-- facebook post -->
-        <div class="our-services-container">
+      <div class="our-services-container">
         <div class="our-services">
           <div class="heading">
             <span class="main-heading">Latest Posts</span>
@@ -299,23 +316,23 @@ require_once('config/urlConfig.php') ?>
             <div class="our-services-right">
 
               <div class="custom-card">
-                  
+
                 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FDPSMyanmar%2Fposts%2Fpfbid02uf5f7WhP8qav8taQbKBVnjXZ1F6EcvzoTmD6ANzXhtbNkJuVK8Xkm2EynW7wJAJ6l&show_text=true&width=500" width="100%" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
                 </iframe>
-                
+
               </div>
 
               <div class="custom-card">
-                  
-               <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FDPSMyanmar%2Fposts%2Fpfbid029vTVGuq24GK2UQasRnhh42BiAko6yUCfKYiPp9QzAAeczmRsFvEMAjPyZzmcKdRbl&show_text=true&width=500" width="100%" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-               </iframe>
-               
+
+                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FDPSMyanmar%2Fposts%2Fpfbid029vTVGuq24GK2UQasRnhh42BiAko6yUCfKYiPp9QzAAeczmRsFvEMAjPyZzmcKdRbl&show_text=true&width=500" width="100%" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                </iframe>
+
               </div>
 
               <div class="custom-card">
-                  
-              <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FDPSMyanmar%2Fposts%2Fpfbid027yKJ8BZc794Z7spZf4PHB6maSNw8ziiXKdNLywgAhj5SNaR295sMi1v3BQJkGBQml&show_text=true&width=500" width="100%" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-              </iframe>
+
+                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FDPSMyanmar%2Fposts%2Fpfbid027yKJ8BZc794Z7spZf4PHB6maSNw8ziiXKdNLywgAhj5SNaR295sMi1v3BQJkGBQml&show_text=true&width=500" width="100%" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                </iframe>
               </div>
 
             </div>
@@ -324,62 +341,62 @@ require_once('config/urlConfig.php') ?>
 
       </div>
       <!-- facebook post -->
-    
-        <div class="valued-clients" style="margin-bottom: 0px;">
-            <div class="custom-heading">
-                <div class="main-heading">
-                    Our Valued Clients
-                </div>
-            </div>
-            <div class="image-row">
-                <div class="image-container">
-                    <a href="/gis/tomtom.php">
-                    <img src="/assets/images/about-us/tomtom.png" alt="tomtom">
-                    </a>
-                </div>
 
-                <div class="image-container">
-                    <a href="/gis/here.php">
-                    <img src="/assets/images/about-us/here.png" alt="here">
-                    </a>
-                </div>
-
-                <div class="image-container">
-                    <a href="/gis/esri.php">
-                    <img src="/assets/images/about-us/esri.png" alt="esri">
-                    </a>
-                </div>
-
-                <div class="image-container">
-                    <a href="/gis/grab.php">
-                    <img src="/assets/images/about-us/grab.png" alt="grab">
-                    </a>
-                </div>
-
-                <div class="image-container">
-                    <a href="/gis/unilever.php">
-                    <img src="/assets/images/about-us/unileverlogo.png" alt="unileverlogo">
-                    </a>
-                </div>
-                
-                <div class="image-container">
-                    <a href="https://www.reuters.com/article/us-myanmar-bagan-factbox-idUSSP5445920061113" target="_blank">
-                    <img src="/assets/images/about-us/reuters.png" alt="reuters">
-                    </a>
-                </div>
-        
-                <div class="about-us-row" style="margin-top: 30px;">
-                    <a href="https://dpsmap.com/valuedclients/">
-                    <img src="/assets/images/about-us/valueclients.jpg" alt="valuedclients">
-                    </a>
-              </div>
-            </div>
+      <div class="valued-clients" style="margin-bottom: 0px;">
+        <div class="custom-heading">
+          <div class="main-heading">
+            Our Valued Clients
+          </div>
         </div>
-           
-    <div class="custom-spacer">
-            <div class="custom-hr"></div>
-    </div>
-    </br>
+        <div class="image-row">
+          <div class="image-container">
+            <a href="/gis/tomtom.php">
+              <img src="/assets/images/about-us/tomtom.png" alt="tomtom">
+            </a>
+          </div>
+
+          <div class="image-container">
+            <a href="/gis/here.php">
+              <img src="/assets/images/about-us/here.png" alt="here">
+            </a>
+          </div>
+
+          <div class="image-container">
+            <a href="/gis/esri.php">
+              <img src="/assets/images/about-us/esri.png" alt="esri">
+            </a>
+          </div>
+
+          <div class="image-container">
+            <a href="/gis/grab.php">
+              <img src="/assets/images/about-us/grab.png" alt="grab">
+            </a>
+          </div>
+
+          <div class="image-container">
+            <a href="/gis/unilever.php">
+              <img src="/assets/images/about-us/unileverlogo.png" alt="unileverlogo">
+            </a>
+          </div>
+
+          <div class="image-container">
+            <a href="https://www.reuters.com/article/us-myanmar-bagan-factbox-idUSSP5445920061113" target="_blank">
+              <img src="/assets/images/about-us/reuters.png" alt="reuters">
+            </a>
+          </div>
+
+          <div class="about-us-row" style="margin-top: 30px;">
+            <a href="https://dpsmap.com/valuedclients/">
+              <img src="/assets/images/about-us/valueclients.jpg" alt="valuedclients">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="custom-spacer">
+        <div class="custom-hr"></div>
+      </div>
+      </br>
       <div class="download-section">
         <div class="map-download">
           <div class="download">
@@ -439,7 +456,7 @@ require_once('config/urlConfig.php') ?>
   <section id="footer">
     <?php require_once('widgets/footer.php') ?>
   </section>
-  
+
   <!-- Fontawesome -->
   <script src="assets/libs/fontawesome/js/all.min.js" type="text/javascript"></script>
 
@@ -469,15 +486,15 @@ require_once('config/urlConfig.php') ?>
 
     })
   </script>
- 
+
   <!-- App -->
   <script src="assets/js/app.js" type="text/javascript"></script>
 
   <!-- Analytics -->
   <script src="assets/js/analytics.js" type="text/javascript"></script>
-  
-</center>
-  
+
+  </center>
+
 
 </body>
 
