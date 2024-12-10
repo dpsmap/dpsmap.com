@@ -38,6 +38,7 @@ require_once('config/urlConfig.php') ?>
   <style>
     .banner {
       background-color: black;
+      z-index: inherit;
     }
 
     .responsive {
