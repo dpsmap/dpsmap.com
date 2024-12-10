@@ -1,4 +1,24 @@
+<style>
+    .blink {
+    background-color: white;
+            animation: blinker 3.5s linear infinite;
+            color: black;
+            text-shadow: 0.4px 0.3px black;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+        }
+
+        @keyframes blinker {
+            50% {
+                /*opacity: 70;*/
+            }
+        }
+</style>
 <div class="mobile-header">
+    <!-- <div>-->
+    <!--          <marquee class="blink" scrollamount="4"> <span style="color:red">Breaking News:</span>(Unicode): Free map တွေ download ပေးနေတဲ့အစီအစဉ်က၂၀၂၄ အောက်တိုဘာလကုန်မှာပြီးတော့မှာဖြစ်လို့ အမြန်ဆုံးကိုယ်လိုအပ်တဲ့မြေပုံတွေdownloadရယူထားကြပါရန်... |  (English): The free map download program will end at the end of October 2024, so download the maps you need as soon as possible. </marquee>-->
+
+    <!--</div>-->
     <div class="mobile-header-left">
         <div class="mobile-nav-open">
             <i class="fa-solid fa-bars"></i>
@@ -64,6 +84,8 @@
                     <a href="<?php echo $http . $domain ?>/naypyitaw/">Naypyitaw Map</a>
                     <a href="<?php echo $http . $domain ?>/bago/">Bago Map</a>
                     <a href="<?php echo $http . $domain ?>/1sqft/">1 SQFT</a>
+                <!--<a target="_blank" href="https://dpsmap.com/districts/">District</a>-->
+                <!--<a target="_blank" href="https://dpsmap.com/industrial/">Industrial</a>-->
                     <a href="<?php echo $http . $domain ?>/mapplotting.php">Map Plotting</a>
                     <a href="<?php echo $http . $domain ?>/printing-services/">Printing Service</a>
                     <a href="<?php echo $http . $domain ?>/gis/">GIS Map</a>
@@ -82,22 +104,32 @@
         </li>
         
         <li>
-            <a target="_blank" href="https://address.dpsmap.com/login.php">address.dpsmap</a>
+            <a target="_blank" href="https://address.dpsmap.com/login.php">Address.dpsmap</a>
         </li>
+        
+          <!--27.11.2024-->
+              <li>
+                <a target="_blank" href="https://dpsmap.com/districts/">District</a>
+            </li>
+              <li>
+                <a target="_blank" href="https://dpsmap.com/industrial/">Industrial</a>
+            </li>
+            <!--27.11.2024-->
+        
         <li style="padding-bottom: 0px;">
         <div class="header-contact-left">
             <div class="contact">
-                <span class="contact-icon">
+                <span class="contact-icon" style="background:#0000ff">
                     <a href="https://www.facebook.com/DPSMyanmar" target="_blank">
                         <i class="fa-brands fa-facebook-f"></i>
                     </a>
                 </span>
-                 <span class="contact-icon">
+                <span class="contact-icon" style="background:#0a66c2;">
                     <a href="https://www.linkedin.com/company/dpsmyanmar/" target="_blank">
                         <i class="fa-brands fa-linkedin-in"></i>
                     </a>
                 </span>
-                 <span class="contact-icon">
+                <span class="contact-icon" style="background:red;">
                     <a href="https://www.youtube.com/@dpsco.ltd.3105" target="_blank">
                         <i class="fa-brands fa-youtube"></i>
                     </a>

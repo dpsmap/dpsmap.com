@@ -40,6 +40,7 @@
                     <a href="<?php echo $http . $domain ?>/ayeyarwaddy/">Ayeyarwaddy Map</a>
                     <a href="<?php echo $http . $domain ?>/chin/">Chin Map</a>
                     <a href="<?php echo $http . $domain ?>/sagaing/">Sagaing Map</a>
+                    <a href="<?php echo $http . $domain ?>/enchantingmyanmar/">Enchanting Myanmar</a>
                 </div>
             </div>
 
@@ -47,7 +48,7 @@
         
         <div class="left footer-content">
              
-             <a href="https://dpsmap.com/form105/" target="_blank">ပုံစံ(၁၀၅)၊ပုံစံ(၇) လယ်ယာမြေလုပ်ကိုင်ခွင့်မြေပုံအကြောင်း
+             <a href="https://dpsmap.com/form105/" target="_blank">Form (105), Form (7) Land Tenure
              </a>
              
             <div class="about-us-row">
@@ -121,6 +122,13 @@
             });
             </script>
             
+            <div class="mt-5 ms-1"><a class="" href="https://dpsmap.com/">
+                    <img src="/assets/images/dpsQR.png" alt="form105 Photo" class="responsive w-50 h-50"/></a>
+            </div>    
+            <!--<div class="mt-5 ms-5"><a class="" href="https://github.com/dpsmap/dpsmap.com">-->
+            <!--        <img src="/assets/images/github_qr-code.png" alt="form105 Photo" class="responsive w-25 h-25"/></a>-->
+            <!--</div>-->
+            
         </div>
     </div>
 </div>
@@ -129,7 +137,7 @@
     
     <div class="button-container">
         <a href="https://dpsmap.com/mapbox-busstop/index.php">
-            <button class="button"> mapbox-busstop </button>
+            <button class="button"> Mapbox-busstop </button>
         </a>
         <a href="https://dpsmap.com/mapbox-busstop/hotel-list.php">
             <button class="button"> Hotel List Map </button>
@@ -156,7 +164,9 @@
   
     <div class="bg-img">
         <div class="backdrop">
-            <div>Copyright © 2023 DPS Map | All Rights Reserved | Powered by DPS Map | Updated by AMO(02.Nov.2023) with ATP </div>
+            <div>© 2024 Design Printing Services Co. Ltd. All rights reserved. | Powered by DPS Map | Updated by AMO(02.Nov.2023) with ATP, AMO(12.Dec.2024) with <a href="https://github.com/Ch4Rmn">LHK</a>| Version
+            <a href="https://github.com/dpsmap/dpsmap.com">0.1</a>
+            </div>
         </div>
         <img src="<?php echo $http . $domain ?>/assets/images/footer.jpg" alt="footer-deco" />
     </div>
@@ -185,4 +195,4 @@
     </center>
     <!-- End of StatCounter Code for Dreamweaver -->
  
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
