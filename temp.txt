@@ -1,7 +1,7 @@
 <?php
 date_default_timezone_set('Asia/Yangon');
 session_start();
-// require_once('config/databaseConnection.php');
+require_once('config/databaseConnection.php');
 require_once('config/urlConfig.php') ?>
 <!DOCTYPE html>
 <html lang="en">

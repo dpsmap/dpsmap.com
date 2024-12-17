@@ -1,7 +1,7 @@
 <?php
 date_default_timezone_set('Asia/Yangon');
 session_start();
-require_once('../../config/databaseConnection.php');
+// require_once('../../config/databaseConnection.php');
 require_once('../../config/urlConfig.php') ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -25,17 +25,18 @@ require_once('../../config/urlConfig.php') ?>
     <title>About Us - DPS Map</title>
     <style>
         .button {
-          background-color: #4CAF50;
-          border: none;
-          color: white;
-          padding: 15px 32px;
-          text-align: center;
-          text-decoration: none;
-          display: inline-block;
-          font-size: 16px;
-          margin: 4px 2px;
-          cursor: pointer;
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
         }
+
         .responsive {
             width: 100%;
             max-width: 600px;
@@ -59,21 +60,21 @@ require_once('../../config/urlConfig.php') ?>
 
     <!-- body area -->
     <section id="body">
-            <div class="company-profile">
-                <div class="custom-heading">
-                    <div class="main-heading">
+        <div class="company-profile">
+            <div class="custom-heading">
+                <div class="main-heading">
                     Why DPS?..
-                    </div>
-                        <div class="sub-heading">
-                        DPS ရဲ့ service တွေကို ဘာကြောင့်သုံးစွဲသင့်တာလဲ?..
-                        </div>
-                    <div class="company-profile-wrapper">
-                        <div class="description">
-                        Design Printing Service Co.,Ltd ကို ၁၉၉၅ ခုနှစ်မှာစတင်ဖွဲ့စည်းခဲ့ပြီး ၁၉၉၆ ခုနှစ်မှာတော့ ရန်ကုန်မြို့၏ အထင်ကရမြေပုံ ဖြစ်သည့် “ရန်ကုန်လမ်းညွန်မြေပုံ” ကို ထုတ်ဝေနိုင်ခဲ့ပါတယ်။ ဒီနေ့အချိန်အထိ Geographical Information System (GIS) နည်းပညာနှင့် Data warehouse များအသုံးပြုပြီး တိုင်းနှင့်ပြည်နယ်မြေပုံများ၊ ၂၀၂၂ ခရိုင်မြေပုံများ၊ မြို့နယ်အကွက်ချမြေပုံများကိုလည်း ဆက်လက်ရေးဆွဲထုတ်ဝေလျှက်ရှိပြီး UNESCO, American Embassy, India Embassy, ESRI, TomTom, HERE, GrabTaxi နှင့် အစိုးရဌာနများနှင့် လက်တွဲလုပ်ဆောင်ခဲ့ပြီး ယုံကြည်မှုရရှိထားသော မြန်မာနိုင်ငံ၏ မြေပုံနှင့် GIS ကုမ္ပဏီတစ်ခုလည်းဖြစ်ပါတယ်။
-                        </div>
                 </div>
+                <div class="sub-heading">
+                    DPS ရဲ့ service တွေကို ဘာကြောင့်သုံးစွဲသင့်တာလဲ?..
+                </div>
+                <div class="company-profile-wrapper">
+                    <div class="description">
+                        Design Printing Service Co.,Ltd ကို ၁၉၉၅ ခုနှစ်မှာစတင်ဖွဲ့စည်းခဲ့ပြီး ၁၉၉၆ ခုနှစ်မှာတော့ ရန်ကုန်မြို့၏ အထင်ကရမြေပုံ ဖြစ်သည့် “ရန်ကုန်လမ်းညွန်မြေပုံ” ကို ထုတ်ဝေနိုင်ခဲ့ပါတယ်။ ဒီနေ့အချိန်အထိ Geographical Information System (GIS) နည်းပညာနှင့် Data warehouse များအသုံးပြုပြီး တိုင်းနှင့်ပြည်နယ်မြေပုံများ၊ ၂၀၂၂ ခရိုင်မြေပုံများ၊ မြို့နယ်အကွက်ချမြေပုံများကိုလည်း ဆက်လက်ရေးဆွဲထုတ်ဝေလျှက်ရှိပြီး UNESCO, American Embassy, India Embassy, ESRI, TomTom, HERE, GrabTaxi နှင့် အစိုးရဌာနများနှင့် လက်တွဲလုပ်ဆောင်ခဲ့ပြီး ယုံကြည်မှုရရှိထားသော မြန်မာနိုင်ငံ၏ မြေပုံနှင့် GIS ကုမ္ပဏီတစ်ခုလည်းဖြစ်ပါတယ်။
+                    </div>
                 </div>
             </div>
+        </div>
 
         <div class="company-profile">
             <div class="custom-heading">
@@ -104,44 +105,44 @@ require_once('../../config/urlConfig.php') ?>
                 <div class="company-profile-right">
                     <img src="/assets/images/mapillary.jpg" alt="Mapillary">
                     <div class="description">
-                       ရန်ကုန်မြို့ရဲ့ လမ်းများကို 360 ပုံစံဖြင့် ကြည့်ရှုလိုပါက အောက်ရှိ Button ကိုနှိပ်ပါ
+                        ရန်ကုန်မြို့ရဲ့ လမ်းများကို 360 ပုံစံဖြင့် ကြည့်ရှုလိုပါက အောက်ရှိ Button ကိုနှိပ်ပါ
                     </div>
                     <a href="http://bit.ly/DPS360" class="button" target="_blank">Button</a>
                 </div>
-                </div>
             </div>
         </div>
-        
+        </div>
+
         <div>
-        <div class="company-profile">
-            <div class="custom-heading">
-                <div class="sub-heading">
-                   Myanmar Works Hard to Keep the Internet Out
-                </div></br>
-                <div class="description">
-                   In downtown Yangon, Internet entrepreneur Aye Min Oo is busy selling space on a Web site that he cannot access.
-To woo advertisers who are also forbidden to access the World Wide Web in military-ruled Myanmar, formerly Burma, he transports his tourist-oriented Web site's pages the old-fashioned way.
-</br>
-"I travel around Yangon and demonstrate the pages on the hard drive of my laptop," he said. "We e-mail new pages to the webmaster in Belgrade. Hopefully, some day we will see it online here ourselves."
-</br>
-Aye Min Oo's roundabout access to the Internet may not be ideal, but it is a rare privilege in isolated Myanmar, a Southeast Asian country of 48 million people where some of the world's toughest Internet restrictions are vigorously enforced.
-</br>
-The measures, aimed at fending off the online campaigns of exiled Burmese opposition groups, restrict e-mail access to fewer than a thousand people who are close to the ruling party, the State Peace and Development Council (SPDC).
-</br>
-Access to the World Wide Web is strictly banned, and unauthorized use of a modem is punishable by 7 to 15 years in jail.
-</br>
-Just one other Web site operates consistently from the country, which has been widely condemned for human rights violations and the suppression of democracy. It is the government's own site, which is only available outside the country. It features tourist and army news in four languages, along with regular fiery criticism of opposition leader Aung San Suu Kyi, whose National League for Democracy party won a 1990 election that the military refused to recognize.
-</br>
-In the decade since then, thousands of democracy activists have been jailed or have fled the country once known as the "rice-bowl of Asia," now one of the world's poorest.
-</br>
-Among Yangon's tiny, struggling expatriate and business communities, where the daily struggles are with boredom and marginalization, the lure of the Internet has been hard to resist. Dialing into foreign servers is an obvious if illegal route for frustrated staff members at embassies and other organizations.
-    </br>
-Crd : <a href="https://archive.nytimes.com/www.nytimes.com/library/tech/00/07/cyber/articles/14myanmar.html">The New York Times</a>;
+            <div class="company-profile">
+                <div class="custom-heading">
+                    <div class="sub-heading">
+                        Myanmar Works Hard to Keep the Internet Out
+                    </div></br>
+                    <div class="description">
+                        In downtown Yangon, Internet entrepreneur Aye Min Oo is busy selling space on a Web site that he cannot access.
+                        To woo advertisers who are also forbidden to access the World Wide Web in military-ruled Myanmar, formerly Burma, he transports his tourist-oriented Web site's pages the old-fashioned way.
+                        </br>
+                        "I travel around Yangon and demonstrate the pages on the hard drive of my laptop," he said. "We e-mail new pages to the webmaster in Belgrade. Hopefully, some day we will see it online here ourselves."
+                        </br>
+                        Aye Min Oo's roundabout access to the Internet may not be ideal, but it is a rare privilege in isolated Myanmar, a Southeast Asian country of 48 million people where some of the world's toughest Internet restrictions are vigorously enforced.
+                        </br>
+                        The measures, aimed at fending off the online campaigns of exiled Burmese opposition groups, restrict e-mail access to fewer than a thousand people who are close to the ruling party, the State Peace and Development Council (SPDC).
+                        </br>
+                        Access to the World Wide Web is strictly banned, and unauthorized use of a modem is punishable by 7 to 15 years in jail.
+                        </br>
+                        Just one other Web site operates consistently from the country, which has been widely condemned for human rights violations and the suppression of democracy. It is the government's own site, which is only available outside the country. It features tourist and army news in four languages, along with regular fiery criticism of opposition leader Aung San Suu Kyi, whose National League for Democracy party won a 1990 election that the military refused to recognize.
+                        </br>
+                        In the decade since then, thousands of democracy activists have been jailed or have fled the country once known as the "rice-bowl of Asia," now one of the world's poorest.
+                        </br>
+                        Among Yangon's tiny, struggling expatriate and business communities, where the daily struggles are with boredom and marginalization, the lure of the Internet has been hard to resist. Dialing into foreign servers is an obvious if illegal route for frustrated staff members at embassies and other organizations.
+                        </br>
+                        Crd : <a href="https://archive.nytimes.com/www.nytimes.com/library/tech/00/07/cyber/articles/14myanmar.html">The New York Times</a>;
+                    </div>
                 </div>
             </div>
-            </div>
         </div>
-        
+
         <div class="valued-clients">
             <div class="custom-heading">
                 <div class="main-heading">
@@ -151,55 +152,55 @@ Crd : <a href="https://archive.nytimes.com/www.nytimes.com/library/tech/00/07/cy
             <div class="image-row">
                 <div class="image-container">
                     <a href="/gis/tomtom.php">
-                    <img src="/assets/images/about-us/tomtom.png" alt="tomtom">
+                        <img src="/assets/images/about-us/tomtom.png" alt="tomtom">
                     </a>
                 </div>
 
                 <div class="image-container">
                     <a href="/gis/here.php">
-                    <img src="/assets/images/about-us/here.png" alt="here">
+                        <img src="/assets/images/about-us/here.png" alt="here">
                     </a>
                 </div>
 
                 <div class="image-container">
                     <a href="/gis/esri.php">
-                    <img src="/assets/images/about-us/esri.png" alt="esri">
+                        <img src="/assets/images/about-us/esri.png" alt="esri">
                     </a>
                 </div>
 
                 <div class="image-container">
                     <a href="/gis/grab.php">
-                    <img src="/assets/images/about-us/grab.png" alt="grab">
+                        <img src="/assets/images/about-us/grab.png" alt="grab">
                     </a>
                 </div>
 
                 <div class="image-container">
                     <a href="/gis/unilever.php">
-                    <img src="/assets/images/about-us/unileverlogo.png" alt="unileverlogo">
+                        <img src="/assets/images/about-us/unileverlogo.png" alt="unileverlogo">
                     </a>
                 </div>
-                
+
                 <div class="image-container">
                     <a href="https://www.reuters.com/article/us-myanmar-bagan-factbox-idUSSP5445920061113" target="_blank">
-                    <img src="/assets/images/about-us/reuters.png" alt="reuters">
+                        <img src="/assets/images/about-us/reuters.png" alt="reuters">
                     </a>
                 </div>
                 </br>
                 </br>
                 <div class="about-us-row">
                     <a href="https://dpsmap.com/valuedclients/">
-                    <img src="/assets/images/about-us/valueclients.jpg" alt="valuedclients">
+                        <img src="/assets/images/about-us/valueclients.jpg" alt="valuedclients">
                     </a>
-              </div>
+                </div>
             </div>
         </div>
 
     </section>
-    
+
     <section id="footer">
         <?php require_once('../../widgets/footer.php') ?>
     </section>
-    
+
     <!-- Fontawesome -->
     <script src="/assets/libs/fontawesome/js/all.min.js" type="text/javascript"></script>
 
